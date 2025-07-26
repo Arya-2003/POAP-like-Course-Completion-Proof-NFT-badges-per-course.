@@ -1,12 +1,17 @@
 [project]
-name = 'POAP-like-Course-Completion-Proof_NFT-badges-per-course'
+name = 'test-POAP-like-Course-Completion-Proof_NFT-badges-per-course'
 description = ''
 authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
-[contracts.project]
-path = 'contracts/project.clar'
+[contracts."POAP-like-Course-Completion-Proof–NFT-badges-per-course"]
+path = 'contracts/POAP-like-Course-Completion-Proof–NFT-badges-per-course.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.counter]
+path = 'contracts/counter.clar'
 clarity_version = 3
 epoch = 3.1
 [repl.analysis]

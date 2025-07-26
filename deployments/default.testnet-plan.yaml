@@ -9,10 +9,10 @@ plan:
     - id: 0
       transactions:
         - contract-publish:
-            contract-name: project
+            contract-name: counter
             expected-sender: ST3J2R2PBKDT3Z2P2B99Y6FDGS09ZTWR0YJ1CFFDJ
-            cost: 9290
-            path: "contracts\\project.clar"
+            cost: 2250
+            path: "contracts\\counter.clar"
             anchor-block-only: true
             clarity-version: 3
       epoch: "3.1"

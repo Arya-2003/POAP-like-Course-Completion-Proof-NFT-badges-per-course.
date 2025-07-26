@@ -1,6 +1,6 @@
 
 {
-  "name": "POAP-like-Course-Completion-Proof_NFT-badges-per-course-tests",
+  "name": "test-POAP-like-Course-Completion-Proof_NFT-badges-per-course-tests",
   "version": "1.0.0",
   "description": "Run unit tests on this project.",
   "type": "module",
